@@ -70,7 +70,7 @@ print "18. "
 puts  hsh[:name] == 'Fido'
 
 print "19. "
-puts hsh[0] == [:name, :age]
+puts hsh.keys == [:name, :age]
 
 print "20. "
 puts hsh.values == ['Fido', '99']
