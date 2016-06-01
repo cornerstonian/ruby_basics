@@ -1,7 +1,7 @@
 
 
 print "1. "
-puts 5 == 2 * 2
+puts 4 == 2 * 2
 
 print "2. "
 puts 5 > 4
@@ -35,7 +35,7 @@ puts 6 == 1000 / (300 / 2)
 msg = "hEllO"
 
 print "11. "
-msg = "Hello"
+msg = "HELLO"
 puts msg == "HELLO"
 
 print "12. "
