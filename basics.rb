@@ -1,5 +1,4 @@
 
-
 print "1. "
 puts 4 == 2 * 2
 
@@ -18,8 +17,10 @@ puts (1 > 0) && (1 <= 1) == true
 print "6. "
 puts 3 != 2
 
+
 print "7. "
 puts (10 <= 10) || (2 >= 3) == true
+
 
 print "8. "
 puts 9 % 3 == 0
@@ -35,25 +36,23 @@ puts 6 == 1000 / (300 / 2)
 msg = "hEllO"
 
 print "11. "
-msg = "HELLO"
-puts msg == "HELLO"
+puts msg.upcase == "HELLO"
 
 print "12. "
-msg = "HeLLo"
-puts msg == "HeLLo"
+puts msg.swapcase == "HeLLo"
 
 print "13. "
-msg = "OllEh"
-puts msg == "OllEh"
+puts msg.reverse == "OllEh"
 
 print "13a. "
-msg = "OLLEH"
-puts msg == "OLLEH"
+puts msg.reverse.upcase == "OLLEH"
 
 arr = ['a', 'b', 'c']
 
+
 print "14. "
 puts arr[2] == 'c'
+
 
 print "15. "
 puts 3 == arr.count
@@ -65,12 +64,16 @@ puts arr.join(",") == 'a,b,c'
 print "17. "
 puts arr[2].capitalize == 'C'
 
+
 hsh = { name: 'Fido', age: '99' }
+
 print "18. "
 puts  hsh[:name] == 'Fido'
 
+
 print "19. "
 puts hsh.keys == [:name, :age]
+
 
 print "20. "
 puts hsh.values == ['Fido', '99']
